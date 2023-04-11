@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">calculator</string>
+    <string name="Please_enter_no1">Please enter no1</string>
+    <string name="Please_enter_no2">Please enter no2</string>
+    <string name="Please_enter_no3">Please enter no3</string>
+    <string name="Please_enter_no4">Please enter no4</string>
+    <string name="Please_enter_no5">Please enter no5</string>
+</resources>

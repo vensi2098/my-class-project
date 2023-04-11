@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">relative_layout</string>
+    <string name="registration">Registration</string>
+    <string name="Please_enter_your_name">Please enter your name</string>
+    <string name="Please_enter_password">Enter password</string>
+    <string name="submit">submit</string>
+    <string name="enter_address">Please enter address</string>
+    <string name="Please_enter_conform_password">conform password</string>
+</resources>

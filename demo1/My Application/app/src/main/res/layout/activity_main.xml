@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:background="#000000"
+        android:paddingleft="100dp"
+        android:paddingright="100dp"
+        android:text="registaration"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingHorizontal="20dp"
+        android:layout_marginLeft="100dp"
+        android:textAllCaps="true"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#000000"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="login"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        android:layout_marginLeft="125dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrastion"
+        android:textSize="30sp"
+        android:textColor="#510606"
+        android:textStyle="normal"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>
+

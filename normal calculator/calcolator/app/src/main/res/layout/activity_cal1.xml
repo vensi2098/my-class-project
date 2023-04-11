@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtNo1"
+        android:inputType="numberDecimal"
+        android:imeOptions="actionNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/Please_enter_no1"
+        android:paddingStart="20dp"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edtNo2"
+        android:inputType="numberDecimal"
+        android:imeOptions="actionNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/Please_enter_no2"
+        android:paddingLeft="20dp"
+        android:textSize="30sp" />
+    <EditText
+        android:id="@+id/edtNo3"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Please_enter_no3"
+        android:imeOptions="actionNext"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:paddingStart="20dp"
+        />
+    <EditText
+        android:id="@+id/edtNo4"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Please_enter_no4"
+        android:imeOptions="actionNext"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:paddingStart="20dp"
+        />
+    <EditText
+        android:id="@+id/edtNo5"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Please_enter_no5"
+        android:imeOptions="actionDone"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:paddingStart="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:text=" "
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="+"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="-"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnDivid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="÷"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnMulti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="x"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="clear"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

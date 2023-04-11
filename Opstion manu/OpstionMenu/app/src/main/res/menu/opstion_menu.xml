@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item  android:id="@+id/home"
+        android:title="@string/home"
+        app:showAsAction="always"
+        android:icon="@drawable/home"/>
+
+    <item  android:id="@+id/Setting"
+        android:title="setting"
+        android:icon="@drawable/setting"
+        app:showAsAction="ifRoom"/>
+
+    <item  android:id="@+id/surch"
+        android:title="surch" />
+
+    <item  android:id="@+id/block"
+        android:title="block"  />
+
+</menu>

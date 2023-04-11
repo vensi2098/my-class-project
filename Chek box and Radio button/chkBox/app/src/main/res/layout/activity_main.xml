@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b_gim"
+    tools:context=". MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="@string/registration"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitle"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:hint="@string/Please_enter_your_name"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/linLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtName"
+        android:weightSum="2">
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:autofillHints=""
+            android:hint="@string/Please_enter_password"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edtConform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:hint="@string/Please_enter_conform_password"
+            android:imeOptions="actionNext"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linLayout"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:autofillHints=""
+        android:hint="@string/enter_address"
+        android:imeOptions="actionNext"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:id="@+id/linLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtAddress"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:weightSum="3">
+
+        <CheckBox
+            android:id="@+id/chkMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:imeOptions="actionNext"
+            android:text="@string/music" />
+
+        <CheckBox
+
+            android:id="@+id/chkDancing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:imeOptions="actionNext"
+            android:text="@string/dancing" />
+
+        <CheckBox
+
+            android:id="@+id/chkReading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:imeOptions="actionDone"
+            android:text="@string/reading" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linLayout1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:weightSum="3">
+
+        <RadioGroup
+            android:id="@+id/rGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Male" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Female" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Other" />
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@color/black"
+        android:text="@string/submit"
+        android:textSize="20sp" />
+</RelativeLayout>
+
+

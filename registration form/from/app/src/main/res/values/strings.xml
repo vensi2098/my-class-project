@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">form</string>
+    <string name="registration_title">Registration form</string>
+    <string name="name">please Enter your name</string>
+    <string name="password">please Enter your password</string>
+    <string name="confirm_password">please Enter your confirm password</string>
+    <string name="address">please Enter your address</string>
+
+
+
+</resources>
