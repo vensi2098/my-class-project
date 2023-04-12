@@ -36,7 +36,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     private void findid() {
-        imgg=findViewById(R.id.imgg);
+        imgg=findViewById(R.id.profile_image);
         btnBack=findViewById(R.id.btnBack);
         txtfname=findViewById(R.id.txtfname);
         txtlname=findViewById(R.id.txtlname);
